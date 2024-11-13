@@ -1,0 +1,32 @@
+.card {
+  background-color: white;
+  width: 100%;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 2px lightgray;
+  border-radius: 4px;
+
+  .card-header, .card-body, .card-footer {
+    padding: 12px 20px;
+  }
+
+  .card-body {
+    overflow-y: scroll;
+  }
+
+  .card-extra {
+    align-items: center;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 100%;
+  }
+
+}
+
+.card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

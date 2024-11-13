@@ -1,0 +1,58 @@
+.d-fx {
+  display: flex;
+}
+
+.jc-sp {
+  justify-content: space-between;
+}
+
+.jc-s {
+  justify-content: start;
+}
+
+.jc-e {
+  justify-content: end;
+}
+
+.a-ic {
+  align-items: center;
+}
+
+/* Padding */
+.p-0 {
+  padding: 0px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.px-10 {
+  padding: 0 10px;
+}
+.py-5 {
+  padding: 5px 0px;
+}
+
+/* Margin */
+.m-0 {
+  padding: 0px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+/* Width */
+.w-50p {
+  width: 50%;
+}
+
+/* Font Size */
+.fs-13 {
+  font-size: 13px;
+}

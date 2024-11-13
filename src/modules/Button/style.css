@@ -1,0 +1,28 @@
+.sorting-button {
+  cursor: pointer;
+  display: flex;
+  padding: 2px 5px;
+  align-items: center;
+  background: #7db7ff8c;
+  border-radius: 2px;
+
+  &.active {
+    border: 1px solid #7db7ff8c;
+    background: white;
+  }
+
+  &:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19)
+  }
+  .sorting-field, .sorting-arrows {
+    padding: 5px 0px;
+  }
+  .sorting-field {
+    margin-right: 5px;
+  }
+
+  .sorting-arrows {
+    width: 25px;
+    text-align: center;
+  }
+}

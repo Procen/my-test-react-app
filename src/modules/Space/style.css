@@ -1,0 +1,17 @@
+.space-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &.space-direction-vertical {
+    flex-direction: column;
+  }
+
+  &.space-direction-horizontal {
+    flex-direction: row;
+  }
+}
+
+
+
+
